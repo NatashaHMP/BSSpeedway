@@ -21,8 +21,7 @@ public class DeathCondition : MonoBehaviour
 
     private void LoadResources()
     {
-        //objectTag = Constants.TagName.PLAYER;
-        objectTag = "Player";
+        objectTag = Constants.TagName.PLAYER;
         deathScreen.enabled = false;
         objPlayer = GameObject.FindWithTag(objectTag);
         deathPlayerScript = objPlayer.GetComponent<DeathPlayer>();

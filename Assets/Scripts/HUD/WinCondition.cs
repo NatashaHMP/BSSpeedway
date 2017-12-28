@@ -22,8 +22,7 @@ public class WinCondition : MonoBehaviour
     private void LoadResources()
     {
         Debug.Log(Time.timeScale);
-        //objectTag = Constants.TagName.PLAYER;
-        objectTag = "Player";
+        objectTag = Constants.TagName.PLAYER;
         WinScreen.enabled = false;
         objPlayer = GameObject.FindWithTag(objectTag);   
     }

@@ -24,8 +24,7 @@ public class DeathPlayer : MonoBehaviour
     private void LoadResources()
     {
         playerDied = false;
-        objectTag = "Floor";
-        //objectTag = Constants.TagName.FLOOR;
+        objectTag = Constants.TagName.FLOOR;
     }
 
     private void OnTriggerEnter(Collider collision)

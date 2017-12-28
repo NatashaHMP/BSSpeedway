@@ -9,7 +9,7 @@ public class Star : MonoBehaviour
 
     private void OnTriggerEnter(Collider collider)
     {
-        if (collider.gameObject.tag == /*Constants.TagName.PLAYER*/ "Player")
+        if (collider.gameObject.tag == Constants.TagName.PLAYER)
         {
             AddStar();
             gameObject.SetActive(false);

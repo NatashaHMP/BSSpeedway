@@ -7,13 +7,15 @@ public class DeathPlayer : MonoBehaviour
 
 
     private string objectTag;
-
     public bool PlayerDied
     {
         get { return playerDied; }
         set { playerDied = value; }
     }
     private bool playerDied;
+    [SerializeField]
+    private GameObject explosion;
+    private Rigidbody carRB;
 
     private void Start()
     {
@@ -23,6 +25,7 @@ public class DeathPlayer : MonoBehaviour
 
     private void LoadResources()
     {
+        carRB = gameObject.GetComponent<Rigidbody>();
         playerDied = false;
         objectTag = Constants.TagName.FLOOR;
     }
@@ -31,7 +34,9 @@ public class DeathPlayer : MonoBehaviour
     {
         if (collision.gameObject.tag == objectTag)
         {
+            Instantiate(explosion, transform.position, Quaternion.identity);
             playerDied = true;
+            carRB.isKinematic = true;
         }
     }
 }

@@ -14,6 +14,8 @@ public class DeathCondition : MonoBehaviour
 
     private DeathPlayer deathPlayerScript;
 
+
+
     private void Start()
     {
         LoadResources();
@@ -39,7 +41,7 @@ public class DeathCondition : MonoBehaviour
         if (deathPlayerScript.PlayerDied == true)
         {
             deathScreen.enabled = true;
-            Time.timeScale = 0.0f;
+            //Time.timeScale = 0.0f;
         }
     }
 }

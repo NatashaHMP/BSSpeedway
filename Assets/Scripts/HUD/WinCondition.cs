@@ -7,12 +7,11 @@ public class WinCondition : MonoBehaviour
 
     [SerializeField]
     private Canvas WinScreen;
-    private GameObject objPlayer;
     [SerializeField]
     private Win WinScript;
-    private string objectTag;
 
- 
+    [SerializeField]
+    private FlagVictory flagScript;
 
     private void Start()
     {
@@ -20,16 +19,19 @@ public class WinCondition : MonoBehaviour
     }
 
     private void LoadResources()
-    {
-        Debug.Log(Time.timeScale);
-        objectTag = Constants.TagName.PLAYER;
+    { 
         WinScreen.enabled = false;
-        objPlayer = GameObject.FindWithTag(objectTag);   
     }
 
-    private void OnTriggerEnter(Collider collision)
+    private void Update()
     {
-        if (collision.gameObject.tag == objectTag)
+        Condition();
+    }
+    
+
+    private void Condition()
+    {
+        if (flagScript.PlayerWin == true)
         {
             WinGame();
         }

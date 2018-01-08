@@ -1,0 +1,402 @@
+fileFormatVersion: 2
+guid: e7ba1ea0018782c4a8a5a0eb9ad40d3c
+timeCreated: 1515429872
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: AM132_006_00
+    100002: AM132_006_01
+    100004: AM132_006_02
+    100006: AM132_006_03
+    100008: AM132_006_04
+    100010: AM132_006_05
+    100012: AM132_006_06
+    100014: AM132_006_07
+    100016: AM132_006_08
+    100018: AM132_006_09
+    100020: AM132_006_10
+    100022: AM132_006_11
+    100024: AM132_006_12
+    100026: AM132_006_13
+    100028: AM132_006_14
+    100030: AM132_006_15
+    100032: AM132_006_16
+    100034: AM132_006_17
+    100036: AM132_006_18
+    100038: AM132_006_19
+    100040: AM132_006_20
+    100042: AM132_006_21
+    100044: AM132_006_22
+    100046: AM132_006_23
+    100048: AM132_006_24
+    100050: AM132_006_25
+    100052: AM132_006_26
+    100054: AM132_006_27
+    100056: AM132_006_28
+    100058: AM132_006_29
+    100060: AM132_006_30
+    100062: AM132_006_31
+    100064: AM132_006_32
+    100066: AM132_006_33
+    100068: AM132_006_34
+    100070: AM132_006_35
+    100072: AM132_006_36
+    100074: AM132_006_37
+    100076: AM132_006_38
+    100078: AM132_006_39
+    100080: AM132_006_40
+    100082: AM132_006_41
+    100084: AM132_006_42
+    100086: AM132_006_43
+    100088: AM132_006_44
+    100090: AM132_006_45
+    100092: AM132_006_46
+    100094: AM132_006_47
+    100096: AM132_006_48
+    100098: AM132_006_49
+    100100: AM132_006_50
+    100102: AM132_006_51
+    100104: Box001
+    100106: Circle001
+    100108: Circle002
+    100110: //RootNode
+    400000: AM132_006_00
+    400002: AM132_006_01
+    400004: AM132_006_02
+    400006: AM132_006_03
+    400008: AM132_006_04
+    400010: AM132_006_05
+    400012: AM132_006_06
+    400014: AM132_006_07
+    400016: AM132_006_08
+    400018: AM132_006_09
+    400020: AM132_006_10
+    400022: AM132_006_11
+    400024: AM132_006_12
+    400026: AM132_006_13
+    400028: AM132_006_14
+    400030: AM132_006_15
+    400032: AM132_006_16
+    400034: AM132_006_17
+    400036: AM132_006_18
+    400038: AM132_006_19
+    400040: AM132_006_20
+    400042: AM132_006_21
+    400044: AM132_006_22
+    400046: AM132_006_23
+    400048: AM132_006_24
+    400050: AM132_006_25
+    400052: AM132_006_26
+    400054: AM132_006_27
+    400056: AM132_006_28
+    400058: AM132_006_29
+    400060: AM132_006_30
+    400062: AM132_006_31
+    400064: AM132_006_32
+    400066: AM132_006_33
+    400068: AM132_006_34
+    400070: AM132_006_35
+    400072: AM132_006_36
+    400074: AM132_006_37
+    400076: AM132_006_38
+    400078: AM132_006_39
+    400080: AM132_006_40
+    400082: AM132_006_41
+    400084: AM132_006_42
+    400086: AM132_006_43
+    400088: AM132_006_44
+    400090: AM132_006_45
+    400092: AM132_006_46
+    400094: AM132_006_47
+    400096: AM132_006_48
+    400098: AM132_006_49
+    400100: AM132_006_50
+    400102: AM132_006_51
+    400104: Box001
+    400106: Circle001
+    400108: Circle002
+    400110: //RootNode
+    2300000: AM132_006_05
+    2300002: AM132_006_06
+    2300004: AM132_006_07
+    2300006: AM132_006_08
+    2300008: AM132_006_09
+    2300010: AM132_006_11
+    2300012: AM132_006_12
+    2300014: AM132_006_13
+    2300016: AM132_006_14
+    2300018: AM132_006_15
+    2300020: AM132_006_17
+    2300022: AM132_006_18
+    2300024: AM132_006_19
+    2300026: AM132_006_20
+    2300028: AM132_006_21
+    2300030: AM132_006_23
+    2300032: AM132_006_24
+    2300034: AM132_006_25
+    2300036: AM132_006_26
+    2300038: AM132_006_27
+    2300040: AM132_006_30
+    2300042: AM132_006_35
+    2300044: AM132_006_36
+    2300046: AM132_006_37
+    2300048: AM132_006_38
+    2300050: AM132_006_39
+    2300052: AM132_006_41
+    2300054: AM132_006_42
+    2300056: AM132_006_43
+    2300058: AM132_006_44
+    2300060: AM132_006_45
+    2300062: AM132_006_46
+    2300064: AM132_006_47
+    2300066: AM132_006_48
+    2300068: AM132_006_49
+    2300070: AM132_006_50
+    2300072: AM132_006_51
+    2300074: Box001
+    3300000: AM132_006_05
+    3300002: AM132_006_06
+    3300004: AM132_006_07
+    3300006: AM132_006_08
+    3300008: AM132_006_09
+    3300010: AM132_006_11
+    3300012: AM132_006_12
+    3300014: AM132_006_13
+    3300016: AM132_006_14
+    3300018: AM132_006_15
+    3300020: AM132_006_17
+    3300022: AM132_006_18
+    3300024: AM132_006_19
+    3300026: AM132_006_20
+    3300028: AM132_006_21
+    3300030: AM132_006_23
+    3300032: AM132_006_24
+    3300034: AM132_006_25
+    3300036: AM132_006_26
+    3300038: AM132_006_27
+    3300040: AM132_006_30
+    3300042: AM132_006_35
+    3300044: AM132_006_36
+    3300046: AM132_006_37
+    3300048: AM132_006_38
+    3300050: AM132_006_39
+    3300052: AM132_006_41
+    3300054: AM132_006_42
+    3300056: AM132_006_43
+    3300058: AM132_006_44
+    3300060: AM132_006_45
+    3300062: AM132_006_46
+    3300064: AM132_006_47
+    3300066: AM132_006_48
+    3300068: AM132_006_49
+    3300070: AM132_006_50
+    3300072: AM132_006_51
+    3300074: Box001
+    4300000: AM132_006_05
+    4300002: AM132_006_06
+    4300004: AM132_006_07
+    4300006: AM132_006_08
+    4300008: AM132_006_09
+    4300010: AM132_006_11
+    4300012: AM132_006_12
+    4300014: AM132_006_13
+    4300016: AM132_006_14
+    4300018: AM132_006_15
+    4300020: AM132_006_17
+    4300022: AM132_006_18
+    4300024: AM132_006_19
+    4300026: AM132_006_20
+    4300028: AM132_006_21
+    4300030: AM132_006_23
+    4300032: AM132_006_24
+    4300034: AM132_006_25
+    4300036: AM132_006_26
+    4300038: AM132_006_27
+    4300040: AM132_006_30
+    4300042: AM132_006_35
+    4300044: AM132_006_36
+    4300046: AM132_006_37
+    4300048: AM132_006_38
+    4300050: AM132_006_39
+    4300052: AM132_006_41
+    4300054: AM132_006_42
+    4300056: AM132_006_43
+    4300058: AM132_006_44
+    4300060: AM132_006_45
+    4300062: AM132_006_46
+    4300064: AM132_006_47
+    4300066: AM132_006_48
+    4300068: AM132_006_49
+    4300070: AM132_006_50
+    4300072: AM132_006_51
+    4300074: Box001
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AM132_006_BlackPlas
+    second: {fileID: 2100000, guid: 608849a219fbd1b40930dc4faf953a28, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AM132_006_Carpaint
+    second: {fileID: 2100000, guid: ba53b49c9eba04b44ac65774243f90b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AM132_006_Everlogo
+    second: {fileID: 2100000, guid: 153e80192dde20348af6db0317872729, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AM132_006_Radio
+    second: {fileID: 2100000, guid: 75e0f0cb79e15c74ab093d186a03fb8c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AM132_006_Rim
+    second: {fileID: 2100000, guid: 195ce78feea8cac478f75e7328c7d8b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AM132_006_Speedo
+    second: {fileID: 2100000, guid: fde95ba34325a874d99ce77ec4d7138d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AM132_006_brake_caliper
+    second: {fileID: 2100000, guid: fba98d405b399934bb07d784fb252b9a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AM132_006_chrom
+    second: {fileID: 2100000, guid: e6c085c654b52c74f9c37ea787434699, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AM132_006_glass
+    second: {fileID: 2100000, guid: 276caa1ab90dc234b87041f7976be8a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AM132_006_glass black
+    second: {fileID: 2100000, guid: 23c7d805cef8ec542be4547557c0aab8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AM132_006_glass orange3
+    second: {fileID: 2100000, guid: d2d3d52b214a6294b92d2f8d56d05280, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AM132_006_hedlight
+    second: {fileID: 2100000, guid: effef279882c28a4bb31f410f4e887c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AM132_006_inter_wood
+    second: {fileID: 2100000, guid: a516537453ea6ba46995d16444ec7408, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AM132_006_interior
+    second: {fileID: 2100000, guid: 86be49ad8cc8e2746bb8299dd2af9d1c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AM132_006_taillight
+    second: {fileID: 2100000, guid: d47eef5bee48b4c448562e603f0ad688, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AM132_006_tire
+    second: {fileID: 2100000, guid: cff10f4c334f0924c8cf129e4980088a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 837cd7c7eadf2a04885d3a848cff78f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: brake_rotor
+    second: {fileID: 2100000, guid: 32b37803bcacd5e4c882a3e9dd140d16, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

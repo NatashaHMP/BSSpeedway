@@ -7,9 +7,9 @@ using UnityEngine.SceneManagement;
 public class LevelButtons : MonoBehaviour {
 
     [SerializeField]
-    private Text loadingText;
+    private GameObject loadingText;
 
-    public Text LoadingText
+    public GameObject LoadingText
     {
         get { return loadingText; }
         set { loadingText = value; }
@@ -22,14 +22,14 @@ public class LevelButtons : MonoBehaviour {
 
     private void LoadResources()
     {
-        loadingText.enabled = false;
+        loadingText.SetActive(false);
     }
 
     public void SelectedLvlPress(string numberLvl)
     {
         string nameScenelvl = Constants.SceneName.LVL + numberLvl;
 
-        loadingText.enabled = true;
+        loadingText.SetActive(true);
         SceneManager.LoadScene(nameScenelvl);
     }
 }

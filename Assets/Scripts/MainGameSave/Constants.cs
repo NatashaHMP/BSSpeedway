@@ -29,7 +29,7 @@ public sealed class Constants : MonoBehaviour {
     public sealed class Code
     {
         public const string TEXT_RESET = "reset";
-        public const string TEXT_CODE = "code";
+        public const string TEXT_CODE = "xj765x3e2";
         public const string TEXT_GAME_STATS = "gameStats";
         public const string TEXT_CODE_INCORRECT = "Codigo incorreto";
         public const string TEXT_MESSAGE_RESET = "RESET - ESTADO: ";
